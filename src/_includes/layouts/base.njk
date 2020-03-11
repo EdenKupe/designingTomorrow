@@ -13,7 +13,12 @@
     {% endif %}
   </head>
   <body>
+  <div id="mainWrapper">
+  {% include "partials/sidebar.njk" %}
+  <div id="mainContent">
     {{ content | safe }}
+  </div>
+  </div>
   </body>
   <script src="/static/app.bundled.js"></script>
 </html>
