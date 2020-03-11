@@ -8,9 +8,7 @@
   },
   "author": "Chris Collins",
   "license": "ISC",
-  "dependencies": {
-    "eleventy": "^1.0.6"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
@@ -18,6 +16,7 @@
     "babel-loader": "^8.0.6",
     "concurrently": "^5.0.0",
     "del-cli": "^3.0.0",
+    "eleventy": "^1.0.6",
     "html-minifier": "^4.0.0",
     "luxon": "^1.21.1",
     "postcss-cli": "^6.1.3",
