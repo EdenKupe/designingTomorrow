@@ -16,51 +16,23 @@ body {
     @apply bg-white h-full;
 }
 
-#mainWrapper {
-    @apply flex h-full;
-}
-
-#mainSidebar {
-    @apply flex flex-col bg-brass pt-24 font-main pl-6 pr-6;
-    flex: 1;
-}
-
-#mainSidebar div {
-    @apply text-carmine w-full flex justify-center text-4xl mb-10;
-}
-
-#mainContent {
-    @apply h-full;
-    max-width: 40rem;
-    margin: 0 auto;
-    flex: 6;
-}
-
-#pageContent {
-    @apply font-main pl-10 text-center h-auto;
-}
-
 h2 {
-    @apply text-4xl text-tiffany mt-20;
+    @apply text-4xl text-main mt-20;
     line-height: 2.4rem;
     font-weight: 700;
+    max-width: 40rem;
 }
 
 p {
-    @apply font-main text-left text-xl text-brass mt-4 mb-4;
+    @apply font-main text-left text-xl text-main mt-4 mb-4;
     line-height: 28px;
-}
-
-#contentHeader {
-    @apply w-full;
-    height: 400px;
-    background: url(https://github.com/EdenKupe/notTheSky/blob/master/img/tree.jpg?raw=true);
-    background-position: center;
+    max-width: 40rem;
 }
 
 .contentSlice {
     margin: 8rem auto;
     position: relative;
+    max-width: 40rem;
 }
 
 /*pulse stuff*/
@@ -73,9 +45,9 @@ p {
     }
 */
 @-webkit-keyframes pulsate {
-    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-    50% {opacity: 1.0;}
-    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+    0% {-webkit-transform: scale(0.1, 0.1); color: #FE7A71;}
+    50% {color: #FE5F55;}
+    100% {-webkit-transform: scale(1.2, 1.2); color: #FE7A71;}
 }
 
 /* Make the element's opacity pulse*/
@@ -101,9 +73,9 @@ p {
     }
 */
 @-webkit-keyframes alertPulse {
-    0% {background-color: #9A2727; opacity: 1;}
-    50% {opacity: red; opacity: 0.75; }
-    100% {opacity: #9A2727; opacity: 1;}
+    0% {color: #FE7A71; opacity: 1;}
+    50% {opacity: #FE5F55; opacity: 0.75; }
+    100% {opacity: #FE7A71; opacity: 1;}
 }
 
 
@@ -132,9 +104,7 @@ Usage
 }
 
 .pulse {
-    animation: opacityPulse 4s ease-out;
-    animation-iteration-count: infinite; 
-    opacity: 1;
+    @apply text-sunset;
 }
 /* purgecss end ignore */
 

@@ -1,8 +1,8 @@
 {
-  "name": "ElevenTail",
+  "name": "designing-tomorrow",
   "version": "0.1.0",
-  "description": "A project scaffold for quick-starting a site with Eleventy and TailwindCSS",
-  "author": "Phil Hawksworth",
+  "description": "The homebase for Designing Tomorrow(s), a toolkit for hacking our future and our present",
+  "author": "Eden Kupermintz",
   "license": "MIT",
   "repository": {
     "type": "git",

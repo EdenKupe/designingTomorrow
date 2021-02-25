@@ -14,6 +14,7 @@ module.exports = {
         begonia: '#F97373',
         quicksilver: '#AFA694',
         sunset: '#FE5F55',
+        main: '#0A0C10',
       },
       fontFamily: {
         'main': ['Montserrat', 'Helvetica'],
