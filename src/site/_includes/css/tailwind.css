@@ -36,6 +36,23 @@ h4 {
   line-height: 2.4rem;
 }
 
+h4:after {
+  width: 100%;
+  display: block;
+  content: '';
+  background: #fbf36d;
+  margin-top: -1.1rem;
+  margin-left: -10px;
+  height: 0.8rem;
+  position: relative;
+  z-index: -1;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
 p {
     @apply font-main text-left text-xl text-main mt-4 mb-4;
     line-height: 28px;
@@ -56,6 +73,14 @@ p {
 .methodBox {
   display: flex;
   flex-direction: column;
+}
+
+.methodBox:first-child {
+  margin-right: 50px;
+}
+
+.pulse {
+  @apply text-sunset;
 }
 
 /*pulse stuff*/
@@ -126,9 +151,7 @@ Usage
   }
 }
 
-.pulse {
-    @apply text-sunset;
-}
+
 /* purgecss end ignore */
 
 /* purgecss start ignore */
