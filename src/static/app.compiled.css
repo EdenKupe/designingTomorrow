@@ -46,10 +46,9 @@ body {
 }
 
 #mainContent {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-  background-color: #114457;
   height: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
   -webkit-box-flex: 6;
           flex: 6;
 }
@@ -61,25 +60,22 @@ body {
   height: auto;
 }
 
-#pageContent h1 {
-  font-size: 4rem;
-  color: #00BABA;
-  margin-top: 5rem;
-}
-
-#pageContent h2 {
+h2 {
   font-size: 2.25rem;
   color: #00BABA;
   margin-top: 5rem;
+  line-height: 2.4rem;
+  font-weight: 700;
 }
 
-#pageContent p {
+p {
   font-family: Montserrat, Helvetica;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #CA9082;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  line-height: 28px;
 }
 
 #contentHeader {
@@ -87,6 +83,11 @@ body {
   height: 400px;
   background: url(https://github.com/EdenKupe/notTheSky/blob/master/img/tree.jpg?raw=true);
   background-position: center;
+}
+
+.contentSlice {
+  margin: 8rem auto;
+  position: relative;
 }
 
 /*pulse stuff*/
