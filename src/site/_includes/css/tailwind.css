@@ -23,6 +23,19 @@ h2 {
     max-width: 40rem;
 }
 
+h3 {
+  @apply text-xl text-main mt-6;
+  line-height: 2.4rem;
+  font-weight: 700;
+  max-width: 40rem;
+}
+
+h4 {
+  @apply text-lg text-main mb-2;
+  max-width: 40rem;
+  line-height: 2.4rem;
+}
+
 p {
     @apply font-main text-left text-xl text-main mt-4 mb-4;
     line-height: 28px;
@@ -33,6 +46,16 @@ p {
     margin: 8rem auto;
     position: relative;
     max-width: 40rem;
+}
+
+.methodRow {
+  display: flex;
+  margin: 4rem auto;
+}
+
+.methodBox {
+  display: flex;
+  flex-direction: column;
 }
 
 /*pulse stuff*/
