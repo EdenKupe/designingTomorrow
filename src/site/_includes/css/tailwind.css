@@ -9,11 +9,12 @@
 }
 
 html {
-    @apply h-full;
+    height: auto;
 }
 
 body {
-    @apply bg-white h-full;
+    @apply h-auto;
+    background: #fbf9ff;
 }
 
 a {
@@ -24,7 +25,7 @@ a {
   content: "";
   background: url(../images/wideFuture.png) no-repeat;
   background-position: center;
-  opacity: 0.3;
+  opacity: 0.2;
   top: 0;
   left: 0;
   bottom: 0;
@@ -112,7 +113,7 @@ footer {
 }
 
 /* 404 stuff */
-body {
+body#wrongBody {
   background: #fbf9ff;
   height: 100vh;
   display: flex;
