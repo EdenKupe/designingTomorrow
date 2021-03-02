@@ -24,13 +24,17 @@ a {
   content: "";
   background: url(../images/wideFuture.png) no-repeat;
   background-position: center;
-  opacity: 0.5;
+  opacity: 0.3;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: fixed;
   z-index: -1;   
+}
+
+.content {
+  height: 100%;
 }
 
 h2 {
@@ -305,14 +309,7 @@ body {
   top: 65%;
   animation: pulse 3s forwards infinite;
 }
-@keyframes pulse {
-  0% {
-    opacity: 0;
- }
-  20% {
-    opacity: 1;
- }
-}
+
 
 #wrongText {
   @apply flex flex-col justify-center items-center text-4xl;
@@ -336,6 +333,16 @@ body {
         opacity: 1; 
     }
 */
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+ }
+  20% {
+    opacity: 1;
+ }
+}
+
 @-webkit-keyframes pulsate {
     0% {-webkit-transform: scale(0.1, 0.1); color: #FE7A71;}
     50% {color: #FE5F55;}
