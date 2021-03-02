@@ -8,13 +8,13 @@ function btnHandler(selector, callback) {
   }, false);
 }
 
-window.onscroll=function(){changeMenu()}
+window.onscroll=function(){changeBackground()}
 
-function changeMenu()
+function changeBackground()
 {
     var scrollBarPosition = window.pageYOffset | document.body.scrollTop;
 
-    // At specifiv position do what you want 
+    // At specific position do what you want 
     if(scrollBarPosition > 500) {
         var body = document.getElementById('mainBody');
         body.classList.add('backgroundSecond');
