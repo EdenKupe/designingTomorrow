@@ -21,9 +21,23 @@ a {
   @apply text-sunset underline;
 }
 
-#backgroundImage::after {
+.backgroundImage::after {
   content: "";
   background: url(../images/wideFuture.png) no-repeat;
+  background-position: center;
+  opacity: 0.2; 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+  transition: background 0.5s linear;
+}
+
+.backgroundSecond::after {
+  content: "";
+  background: url(../images/wideFuture1.jpg) no-repeat;
   background-position: center;
   opacity: 0.2;
   top: 0;
@@ -31,7 +45,8 @@ a {
   bottom: 0;
   right: 0;
   position: fixed;
-  z-index: -1;   
+  z-index: -1;
+  transition: background 0.5s linear; 
 }
 
 .content {
