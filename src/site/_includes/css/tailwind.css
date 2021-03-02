@@ -16,6 +16,23 @@ body {
     @apply bg-white h-full;
 }
 
+a {
+  @apply text-sunset underline;
+}
+
+#backgroundImage::after {
+  content: "";
+  background: url(../images/wideFuture.png) no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;   
+}
+
 h2 {
     @apply text-4xl text-main mt-20;
     line-height: 2.4rem;
@@ -82,6 +99,233 @@ p {
 .pulse {
   @apply text-sunset;
 }
+
+footer {
+  @apply flex justify-between bg-white w-full items-center justify-center;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+}
+
+/* 404 stuff */
+body {
+  background: #fbf9ff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  border: 10px solid white;
+  box-shadow: 4px 5px 20px 4px #000 26;
+  background: linear-gradient(-45deg, #570f53, #364273, #141220, #6065a6);
+  animation: daylight 13s ease infinite;
+  background-size: 400% 400%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+@keyframes daylight {
+  0% {
+    background-position: 0% 50%;
+ }
+  50% {
+    background-position: 100% 50%;
+ }
+  100% {
+    background-position: 0% 50%;
+ }
+}
+.moon {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to bottom, #fff 1%, #fffeef 50%, #fffff6 100%);
+  border-radius: 100%;
+  position: relative;
+  box-shadow: 0px 0px 17px 1px #fff 82, 0 0 35px 2px rgba(255, 255, 255, 0.51);
+}
+.moon:after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  right: 25px;
+  top: 25px;
+  border-radius: 100%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 0 50px rgba(255, 255, 255, 0.06), 0 0 0 70px rgba(255, 255, 255, 0.04);
+  animation: moon_glow 2s ease-in-out infinite alternate;
+}
+@keyframes moon_glow {
+  0% {
+    transform: scale(1);
+    translate: -50%, -50%;
+ }
+  50% {
+    transform: scale(1.03);
+    translate: -50%, -50%;
+ }
+}
+.hole_1 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  border-radius: 100%;
+  background: #fbfaee;
+  top: 20%;
+  left: 18%;
+  box-shadow: inset 3px 3px 0px 0px #dcdcdc 45;
+}
+.hole_2 {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-radius: 100%;
+  background: #fdfcf0;
+  top: 38%;
+  left: 34%;
+  box-shadow: inset 3px 3px 0px 0px #dcdcdc 1c;
+}
+.meteor {
+  position: absolute;
+  left: 0%;
+  top: 350px;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  -webkit-animation: shooting 5s linear infinite;
+  animation: shooting 5s 3s linear infinite;
+}
+.meteor:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  right: 1px;
+  top: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.53) 100%);
+}
+.meteor-2 {
+  top: 110px;
+  animation: shooting 4s 1s linear infinite;
+}
+.meteor-3 {
+  top: 20px;
+  animation: shooting 3s 4s linear infinite;
+}
+.meteor-4 {
+  top: -700px;
+  animation: shooting 3s 2s linear infinite;
+}
+.meteor-5 {
+  top: -500px;
+  animation: shooting 5s 3s linear infinite;
+}
+@keyframes shooting {
+  from {
+    left: -100px;
+ }
+  to {
+    left: calc(100% + 100px);
+ }
+}
+.starts {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.starts .star {
+  width: 3px;
+  height: 3px;
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0px #fff 80;
+}
+.starts .star:nth-child(1) {
+  left: 20%;
+  top: 17%;
+  animation: pulse 3s forwards infinite;
+}
+.starts .star:nth-child(2) {
+  left: 30%;
+  top: 11%;
+  animation: pulse 4s forwards infinite;
+}
+.starts .star:nth-child(3) {
+  left: 28%;
+  top: 27%;
+  animation: pulse 7s forwards infinite;
+}
+.starts .star:nth-child(4) {
+  left: 9%;
+  top: 44%;
+  animation: pulse 5s forwards infinite;
+}
+.starts .star:nth-child(5) {
+  left: 85%;
+  top: 50%;
+  animation: pulse 8s forwards infinite;
+}
+.starts .star:nth-child(6) {
+  left: 80%;
+  top: 20%;
+  animation: pulse 4s forwards infinite;
+}
+.starts .star:nth-child(7) {
+  left: 23%;
+  top: 67%;
+  animation: pulse 6s forwards infinite;
+}
+.starts .star:nth-child(8) {
+  left: 70%;
+  top: 80%;
+}
+.starts .star:nth-child(9) {
+  left: 20%;
+  top: 76%;
+  animation: pulse 9s forwards infinite;
+}
+.starts .star:nth-child(10) {
+  left: 55%;
+  top: 88%;
+  animation: pulse 8s forwards infinite;
+}
+.starts .star:nth-child(11) {
+  left: 34%;
+  top: 95%;
+  animation: pulse 2s forwards infinite;
+}
+.starts .star:nth-child(12) {
+  left: 90%;
+  top: 65%;
+  animation: pulse 3s forwards infinite;
+}
+@keyframes pulse {
+  0% {
+    opacity: 0;
+ }
+  20% {
+    opacity: 1;
+ }
+}
+
+#wrongText {
+  @apply flex flex-col justify-center items-center text-4xl;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#wrongMain {
+  @apply text-6xl mt-6;
+}
+
+/*404 stuff ends*/
+
 
 /*pulse stuff*/
 /* Make the element pulse (grow large and small slowly) */
