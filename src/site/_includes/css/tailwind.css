@@ -49,8 +49,28 @@ a {
   transition: background 0.5s linear; 
 }
 
+.backgroundThird::after {
+  content: "";
+  background: url(../images/wideFuture2.jpg) no-repeat;
+  background-position: center;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+  transition: background 0.5s linear; 
+}
+
 .content {
   height: 100%;
+}
+
+.pageContent {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 40rem;
 }
 
 h2 {
@@ -73,7 +93,7 @@ h4 {
   line-height: 2.4rem;
 }
 
-h4:after {
+h4::after {
   @apply bg-marker;
   width: 100%;
   display: block;
@@ -116,8 +136,11 @@ p {
 }
 
 .methodBox {
+  @apply text-main;
   display: flex;
   flex-direction: column;
+  flex: 1;
+  text-decoration: none;
 }
 
 .methodBox:first-child {

@@ -8,20 +8,23 @@ function btnHandler(selector, callback) {
   }, false);
 }
 
-window.onscroll=function(){changeBackground()}
+window.onscroll = function(){
+  changeBackground()
+}
 
-function changeBackground()
-{
+function changeBackground() {
     var scrollBarPosition = window.pageYOffset | document.body.scrollTop;
-
-    // At specific position do what you want 
-    if(scrollBarPosition > 500) {
-        var body = document.getElementById('mainBody');
+    var body = document.getElementById('mainBody');
+    // At specific positions of the window scroll, change the images by adding
+    // or removing the appropriate classes
+    if (scrollBarPosition > 300 && scrollBarPosition < 800) {
         body.classList.add('backgroundSecond');
-    }
-    else {
-      var body = document.getElementById('mainBody');
+        body.classList.remove('backgroundThird');
+    } else if (scrollBarPosition > 800) {
+        body.classList.add('backgroundThird');
+    } else if (scrollBarPosition < 300) {
       body.classList.remove('backgroundSecond');
+      body.classList.remove('backgroundThird');
     }
 }
 
