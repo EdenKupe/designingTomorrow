@@ -1,6 +1,5 @@
 ---
 title: "A Handbook to Desirable Futures"
-layout: page
 ---
 
 In the past few years a group of science fiction authors and enthusiasts, designers, policy analysts, and other people from different disciplines interested in exploring futures has gathered different methodologies, approaches and concepts of designing future scenario-building. Our aim is to share these experiences and methods in a format that allows others to work with them and adapt them for their working contexts. We also wish to share back to our communities who have actively contributed to Designing Tomorrow/s. This handbook will be an open source publication. All of the content and design of this handbook is under the MIT license.

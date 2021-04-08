@@ -70,6 +70,7 @@ a {
 .pageContent {
   height: 100%;
   margin: 0 auto;
+  margin-bottom: 80px;
   max-width: 40rem;
 }
 
@@ -85,6 +86,10 @@ h3 {
   line-height: 2.4rem;
   font-weight: 700;
   max-width: 40rem;
+}
+
+.pageContent h3 {
+  @apply text-2xl text-sunset;
 }
 
 h4 {
@@ -149,6 +154,22 @@ p {
 
 .pulse {
   @apply text-sunset;
+}
+
+#table-of-contents {
+  position: fixed;
+  left: 10%;
+  top: 20%;
+}
+
+.anchorItem {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.anchorItem::before {
+  content: "🚀 ";
+  margin-right: 5px;
 }
 
 footer {

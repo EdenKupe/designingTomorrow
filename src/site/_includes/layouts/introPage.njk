@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>{{ title }}</title>
+    {% include "social.njk" %}
+  </head>
+  <body id="mainBody">
+    {% include "navigation-links.njk" %}
+    <div class="pageContent leading-relaxed">
+    <div class="mainContent">
+    <h2 id="pageTitle">{{title}}</h2>
+      {{ content | safe }}
+      <section class="contentSlice sideBySide">
+<h2>Continue exploring intros, engines, and foundations</h2>
+  <div class="methodRow">
+    <a href="/pages/intros/handbook" class="methodBox">
+      <h4>A Handbook for Desirable Futures</h4>
+      <span>Exploring the importance of speculative methodologies</span>
+    </a>
+    <a href="/pages/intros/tool" class="methodBox"> 
+      <h4>Science Fiction as a Tool</h4>
+      <span>Conceptualizing our radical future, near or far, inherently involves the imagination</span>
+    </a>
+  </div>
+  <div class="methodRow">
+    <a href="#" class="methodBox"> 
+      <h4>Science fiction - now!</h4>
+      <span>Imagine Tomorrow! If you don't, someone else will do so for you!</span>
+    </a>
+    <a href="#" class="methodBox"> 
+      <h4>Spectulation in a World of Prediction</h4>
+      <span>The data driven realities we are creating are always a perpetuation of the past</span>
+    </a>
+  </div>
+  </section>
+    </div>
+    </div>
+    {% include "footer.njk" %}
+    {% set js %}
+      {% include "js/page.js" %}
+    {% endset %}
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+    <script>{{ js | jsmin | safe }}</script>
+  </body>
+</html>

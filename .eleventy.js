@@ -8,7 +8,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias('default', 'layouts/base.njk');
   eleventyConfig.addLayoutAlias('conf', 'layouts/conf.njk');
   eleventyConfig.addLayoutAlias('wrong', 'layouts/404Base.njk');
-  eleventyConfig.addLayoutAlias('page', 'layouts/page.njk');
+  eleventyConfig.addLayoutAlias('introPage', 'layouts/introPage.njk');
 
   // a debug utility
   eleventyConfig.addFilter('dump', obj => {
