@@ -125,7 +125,7 @@ h4.lowest::after {
 }
 
 p {
-    @apply font-main text-left text-xl text-main mt-4 mb-4;
+    @apply font-main text-left text-xl text-main mt-4 mb-4 font-bold;
     line-height: 28px;
     max-width: 40rem;
 }
