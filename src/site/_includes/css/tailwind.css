@@ -22,6 +22,16 @@ a {
   @apply text-sunset underline;
 }
 
+#homeLink {
+  position: fixed;
+  left: 30px;
+  top: 10px;
+}
+
+#homeLink a {
+  margin-right: 10px;
+}
+
 .backgroundImage::after {
   content: "";
   background: url(../images/wideFuture.png) no-repeat;
@@ -33,7 +43,7 @@ a {
   right: 0;
   position: fixed;
   z-index: -1;
-  transition: background 0.5s linear;
+  transition: background 0.7s linear;
 }
 
 .backgroundSecond::after {
@@ -47,7 +57,7 @@ a {
   right: 0;
   position: fixed;
   z-index: -1;
-  transition: background 0.5s linear; 
+  transition: background 0.7s linear; 
 }
 
 .backgroundThird::after {
@@ -61,7 +71,7 @@ a {
   right: 0;
   position: fixed;
   z-index: -1;
-  transition: background 0.5s linear; 
+  transition: background 0.7s linear; 
 }
 
 .content {

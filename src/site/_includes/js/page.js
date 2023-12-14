@@ -1,4 +1,4 @@
-anchors.add('h3');
+anchors.add('.mainContent h3');
 generateTableOfContents(anchors.elements);
 
 // External code for generating a simple dynamic Table of Contents
