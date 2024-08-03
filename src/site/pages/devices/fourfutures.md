@@ -19,12 +19,15 @@ We absolutely adore the framework of the book, and decided to extract it, sans F
 To begin this exercise we ask ourselves broad questions about the future, and when we have enough of them we try to identify those of them that have two distinct qualities:
 
 1. We are truly uncertain of what the future holds for this issue.
+
 1. We can roughly place the possible answers on an axis between two extremes.
 
 Such questions and their matching axes can be, for example:
 
 * *What is the future of social castes?* The answers lie somewhere between *equality* and *hierarchy*.
+
 * *How will the future look for societal relations?* The answers could lie somewhere between *solidarity* and *individuation*.
+
 * *What is the future of the tensions between Nature and Culture?* The answer lies somewhere between *humanity prevailing over nature*, and *nature prevailing over humanity*.
 
 We call these questions “Axes of Uncertainty”.
