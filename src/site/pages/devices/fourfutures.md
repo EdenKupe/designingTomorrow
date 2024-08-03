@@ -1,8 +1,8 @@
 ---
-title: "*Four Futures*"
+title: "Four Futures"
 ---
 
-Adapted from the eponymous (Peter Fraser 2016 book)[https://www.versobooks.com/books/1847-four-futures], *Four Futures* is one of our basic methods, the starting point for most of our Designing Tomorrow workshops.
+Adapted from the eponymous [Peter Fraser 2016 book](https://www.versobooks.com/books/1847-four-futures), *Four Futures* is one of our basic methods, the starting point for most of our Designing Tomorrow workshops.
 
 <img alt="slide from Peter Frase's presentation describing the basic Four Futures methodology" src="../../../images/fourFuturesBase.jpg">
 
