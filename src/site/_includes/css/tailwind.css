@@ -140,7 +140,7 @@ p {
     max-width: 40rem;
 }
 
-ol ul {
+ol, ul{
   @apply font-main text-left text-xl text-main mt-4 mb-4;
   line-height: 28px;
   max-width: 40rem;
