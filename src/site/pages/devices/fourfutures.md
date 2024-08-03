@@ -2,6 +2,8 @@
 title: "Four Futures"
 ---
 
+### What is Four Futures?
+
 Adapted from the eponymous [Peter Fraser 2016 book](https://www.versobooks.com/books/1847-four-futures), *Four Futures* is one of our basic methods, the starting point for most of our Designing Tomorrow workshops.
 
 <img alt="slide from Peter Frase's presentation describing the basic Four Futures methodology" src="../../../images/fourFuturesBase.jpg">
@@ -26,6 +28,8 @@ Such questions and their matching axes can be, for example:
 * *What is the future of the tensions between Nature and Culture?* The answer lies somewhere between *humanity prevailing over nature*, and *nature prevailing over humanity*.
 
 We call these questions “Axes of Uncertainty”.
+
+### Fleshing out the Axes of Uncertainity
 
 We proceed to take two of these axes and cross them, creating a matrix. In the example below we’ve created a matrix with two of the axes mentioned above:
 
