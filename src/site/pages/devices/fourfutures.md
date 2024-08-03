@@ -56,6 +56,6 @@ The beautiful thing about the *Four Futures* method, is that there will always b
 
 <img alt="a version of the four futures chart with some of the futures clearly being marked as surprising" src="../../../images/ffChart5.jpg">
 
-At this point in a Designing Tomorrow workshop we will tend to choose one of these unexpected quadrants, the ones we can’t judge as quickly, and flesh it out (using advanced methods) into a future scenario that we perhaps wouldn’t have otherwise conceived.
+At this point in a Designing Tomorrow workshop we will tend to choose one of these unexpected quadrants, the ones we can’t judge as quickly, and flesh it out (using our other methods, like [backcasting](pages/devices/backcasting)) into a future scenario that we perhaps wouldn’t have otherwise conceived.
 
 This is what we’re aiming for when we speak about “freeing our political imagination” in our project.
