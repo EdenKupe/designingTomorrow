@@ -140,6 +140,12 @@ p {
     max-width: 40rem;
 }
 
+p ol ul {
+  @apply font-main text-left text-xl text-main mt-4 mb-4;
+  line-height: 28px;
+  max-width: 40rem;
+}
+
 .contentSlice {
     margin: 8rem auto;
     position: relative;
