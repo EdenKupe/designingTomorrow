@@ -188,6 +188,11 @@ p {
   margin-right: 5px;
 }
 
+.caption {
+  @apply text-sm text-sunset;
+
+}
+
 footer {
   @apply flex justify-between bg-white w-full items-center justify-center;
   height: 50px;
