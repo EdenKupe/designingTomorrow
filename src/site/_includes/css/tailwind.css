@@ -127,11 +127,11 @@ h4::after {
 }
 
 h4.lower::after {
-  @apply bg-apricot;
+  @apply bg-fblue;
 }
 
 h4.lowest::after {
-  @apply bg-fblue;
+  @apply bg-apricot;
 }
 
 p {

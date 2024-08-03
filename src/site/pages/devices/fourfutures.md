@@ -46,7 +46,7 @@ Note that the answers are never obvious. The phrasing of the questions, the two 
 
 <img alt="a more verbose version of the future futures chart" src="../../../images/ffChart3.jpg">
 
-The above is a matrix I made in a workshop with the same axes. I was in a different mood and wrote much longer descriptions. I also imagined something completely different for the upper-right quadrant. It is just as valid.
+The above is a matrix we made in a workshop with the same axes. I was in a different mood and wrote much longer descriptions. I also imagined something completely different for the upper-right quadrant. It is just as valid.
 
 An interesting thing usually happens in this stage; even though we purposefully chose issues about which we are uncertain, some quadrants seem to us clearly as either good or bad:
 

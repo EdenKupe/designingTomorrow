@@ -1,8 +1,6 @@
 ---
 title: "The Power of Speculation in a World of Prediction"
 ---
-
-
 ### A short history of predictive mathematics
 
 In 1654 a series of letters written between Blaise Pascal and Pierre de Fermat changed the world we live in. Although humans have speculated about their future, betted on it and attempted to predict it through the ages, they were previously unable to calculate it. Pascal and Fermat opened up the idea and the possibility of predicting the future by calculating probabilities.

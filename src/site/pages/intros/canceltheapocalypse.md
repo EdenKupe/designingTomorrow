@@ -2,7 +2,7 @@
 title: "Cancel the Apocalypse"
 ---
 
-Cancel the Apocalypse - Imagining Alternative Futures _or_ When the Path We Walked Blocks Our Ways Forward - by Mushon Zer-Aviv.
+*Imagining Alternative Futures _or_ When the Path We Walked Blocks Our Ways Forward - by Mushon Zer-Aviv.*
 
 [First published here](https://dingdingding.org/issue-2/when-the-path-we-walked-blocks-our-ways-forward/)
 
