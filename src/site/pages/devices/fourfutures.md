@@ -29,7 +29,7 @@ Such questions and their matching axes can be, for example:
 
 We call these questions “Axes of Uncertainty”.
 
-### Fleshing out the Axes of Uncertainity
+### The Axes of Uncertainity
 
 We proceed to take two of these axes and cross them, creating a matrix. In the example below we’ve created a matrix with two of the axes mentioned above:
 
