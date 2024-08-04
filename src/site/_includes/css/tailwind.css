@@ -163,7 +163,7 @@ ol, ul{
 }
 
 .methodBox {
-  @apply text-main;
+  @apply text-black;
   display: flex;
   flex-direction: column;
   flex: 1;
